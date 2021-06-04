@@ -44,7 +44,6 @@ def getDistrictId(state):
 
 def available(districtId,age):
   date = getDate()
-  districtId = '395'
   Url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id={}&date={}".format(districtId,date)
   header = {
       'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
