@@ -83,5 +83,5 @@ elif(age>=18):
   ageGroup = 18
 while(available(districtId,ageGroup,state)!=True):
   time.sleep(5)
-  available(districtId,ageGroup)
+  available(districtId,ageGroup,state)
 
